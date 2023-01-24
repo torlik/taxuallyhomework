@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taxually.TechnicalTest", "Taxually.TechnicalTest\Taxually.TechnicalTest.csproj", "{A119A885-BCD4-473B-861A-480AA3C87EB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taxually.Test.Integration", "Taxually.Test.Integration\Taxually.Test.Integration.csproj", "{FDAE6F70-564A-47F2-B8DC-0D7E84E07329}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taxually.Test.Integration", "Taxually.Test.Integration\Taxually.Test.Integration.csproj", "{FDAE6F70-564A-47F2-B8DC-0D7E84E07329}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taxually.Test.Unit", "Taxually.Test.Unit\Taxually.Test.Unit.csproj", "{873367DA-57DA-42DA-8201-C7E6428A059E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FDAE6F70-564A-47F2-B8DC-0D7E84E07329}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDAE6F70-564A-47F2-B8DC-0D7E84E07329}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDAE6F70-564A-47F2-B8DC-0D7E84E07329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{873367DA-57DA-42DA-8201-C7E6428A059E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873367DA-57DA-42DA-8201-C7E6428A059E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873367DA-57DA-42DA-8201-C7E6428A059E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873367DA-57DA-42DA-8201-C7E6428A059E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

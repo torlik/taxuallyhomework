@@ -1,10 +1,12 @@
 using Taxually.TechnicalTest;
+using Taxually.TechnicalTest.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddScoped<TaxuallyHttpClient>();
 builder.Services.AddScoped<TaxuallyQueueClient>();
+builder.Services.AddScoped<IVatRegistrationService, VatRegistrationService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

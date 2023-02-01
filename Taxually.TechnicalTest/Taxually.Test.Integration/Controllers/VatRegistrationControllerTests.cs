@@ -60,7 +60,7 @@ namespace Taxually.Test.Integration.Controllers
             var response = await client.PostAsync(url, content);
 
             response.StatusCode.Should().Be(HttpStatusCode.OK);
-            await taxuallyHttpClient.Received(1).EnqueueAsync(expectedQueueName, Arg.Any<byte[]>);
+            await taxuallyHttpClient.Received(1).EnqueueAsync(expectedQueueName, Arg.Any<byte[]>());
         }
 
         [Fact]
@@ -79,7 +79,7 @@ namespace Taxually.Test.Integration.Controllers
             var response = await client.PostAsync(url, content);
 
             response.StatusCode.Should().Be(HttpStatusCode.OK);
-            await taxuallyQueueClient.Received(1).EnqueueAsync(expectedQueueName, Arg.Any<string>);
+            await taxuallyQueueClient.Received(1).EnqueueAsync(expectedQueueName, Arg.Any<string>());
         }
 
         [Fact]
